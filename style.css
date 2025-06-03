@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+header {
+  background: #b91c1c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  background: url('https://tagamikan.com/joubu/shimohongou23.jpg') center/cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-title {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 3rem;
+  color: white;
+}
+
+.description, .gallery {
+  padding: 2rem;
+}
+
+.description h3, .gallery h3 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background: #b91c1c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
